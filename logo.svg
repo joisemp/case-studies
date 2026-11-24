@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 80" role="img" aria-label="JM">
+  <style>
+    path { fill: #18181b; }
+    @media (prefers-color-scheme: dark) {
+      path { fill: #fafafa; }
+    }
+  </style>
+  <path
+    d="M24 6h15v38.5c0 7.2-4.2 12-11.5 12H12V45.5h9.2c2.1 0 3.3-1.2 3.3-3.3V6zm15 0h16.5L66 38l10.5-32H93v68H76.5V32.5L66.2 60H55.8L45.5 32.5V74H39V6z" />
+</svg>

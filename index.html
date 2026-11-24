@@ -80,15 +80,18 @@
     }
 
     .avatar {
-      width: 32px;
+      width: 40px;
       height: 32px;
       display: grid;
       place-items: center;
-      border-radius: 50%;
-      background: var(--primary);
-      color: var(--primary-foreground);
-      font-size: 12px;
-      font-weight: 700;
+      overflow: hidden;
+    }
+
+    .avatar img {
+      width: 40px;
+      height: 32px;
+      display: block;
+      object-fit: contain;
     }
 
     .header-link {
@@ -267,7 +270,9 @@
   <header>
     <div class="container header-inner">
       <a class="brand" href="index.html" aria-label="Case studies home">
-        <span class="avatar">JM</span>
+        <span class="avatar">
+          <img src="logo.svg" alt="" aria-hidden="true">
+        </span>
         <span>Joise MP</span>
       </a>
       <a class="header-link" href="https://joisemp.github.io" target="_blank" rel="noopener">
